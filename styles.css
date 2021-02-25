@@ -43,7 +43,7 @@ nav a:hover{
   background-image: url("images/headerpic.jpg");
   width: 100%;
   background-size: cover;
-  height: 700px;
+  height: 900px;
   object-fit: cover;
   text-align: center;
   margin: 0px;
@@ -58,12 +58,18 @@ nav a:hover{
   padding-top: 40px;
   color: #36160C;
 }
-.header p{
+.subtitle{
   font-size: 20px;
-  padding: 50px;
+  padding: 40px;
   font-weight: bolder;
   background-color: #36160C;
   color: #9F5842;
+}
+.description{
+  width: 80%;
+  background-color: #9F5842;
+  color: #36160C;
+  margin:auto;
 }
 .content_container{
   background-color: #9F5842;
@@ -74,3 +80,12 @@ nav a:hover{
   font-size: 30px;
   text-align: justify;
 }
+.subtitle_des{
+  text-align: center;
+  padding:10;
+}
+/*
+.text{
+  background-color: #F2D2BD;
+  text-align: center;
+}*/
